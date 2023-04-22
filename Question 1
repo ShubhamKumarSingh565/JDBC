@@ -1,0 +1,45 @@
+Question No: 1
+
+Write a Java (JDBC) program to insert students details in a table and 
+display the number of rows affected.
+
+Use below Database Credentials
+
+Driver Class        :       com.mysql.jdbc.Driver
+Default DB URL :            jdbc:mysql://localhost/ri_db
+Username          :         test
+Password           :        test123
+
+
+Note: A table has already been created. Table Structure is
+
+Table Name : student
+
+rollno   int
+sname    varchar(30)
+mark1	 int
+mark2	 int
+mark3	 int
+
+
+Input format
+Number of students in first line
+Roll number, Name and Marks of 3 subjects in next lines
+
+Output format
+Display the number of rows inserted.
+
+
+Sample testcases
+Input 1		       	Output 1
+2			            2
+1000
+Babu
+37
+89
+98
+1001
+Moni
+90
+87
+44
