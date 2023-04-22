@@ -1,0 +1,28 @@
+Question No: 3
+
+Design a program that connects to a MySQL database using JDBC and 
+retrieves metadata about the tables in the database. 
+The program should prompt the user for the database URL, username, and password, 
+and use these values to establish a connection to the database
+
+
+Use the below Database Credentials
+
+Driver Class        :       com.mysql.jdbc.Driver
+Default DB URL :            jdbc:mysql://localhost/ri_db
+Username          :         test
+Password           :        test123
+
+
+Input format
+No console input
+
+Output format
+The Output Should display the Tables in the Database
+
+
+Sample testcases
+Input 1					Output 1
+					      Tables List:
+					      customer_details
+					      order_details
