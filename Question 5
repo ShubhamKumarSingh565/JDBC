@@ -1,0 +1,40 @@
+Question No: 5
+
+Write a Java (JDBC) program to connect with the MySQL database and 
+print the book details after deleting a particular book from the database.
+
+
+Use below Database Credentials
+Driver Class    : com.mysql.jdbc.Driver
+Default DB URL : jdbc:mysql://localhost/ri_db
+Username     : test
+Password      : test123
+
+Note: The table is already created, and a set of book details are inserted.
+
+Id	    name		          author
+1	      Alchemist	        Paulo Coelho
+2	      Divergent	        Veronica
+3 	    The red		        Stendhal
+4	      Pride and 	      Jane Austen
+	      Prejudice	
+5	      Politics	        Aristotle
+6	      Power Politics	  Arundati Roy
+7	      Anand Math	      Bankim Chandra Chatterjee
+8	      My Truth	        Indira Gandhi
+
+
+Input format
+The input consists of the book name.
+
+Output format
+The output prints the table after deleting the particular book.
+
+Input 1					    Output 1
+Alchemist				    2 Divergent Veronica
+					          3 The red Stendhal
+					          4 Pride and Prejudice Jane Austen
+					          5 Politics Aristotle
+					          6 Power Politics Arundati Roy
+					          7 Anand Math Bankim Chandra Chatterjee
+					          8 My Truth Indira Gandhi
