@@ -1,0 +1,35 @@
+Question No: 2
+
+Write a Java (JDBC) program to connect with the MySQL database, 
+insert the given data in the table, and display the table contents using ResultSet.
+
+Use below Database Credentials
+
+Driver Class: com.mysql.jdbc.Driver
+Default DB URL : jdbc:mysql://localhost/ri_db
+Username: test
+Password: test123
+
+
+Table Name: STUDENT
+id as an int, name as a varchar (30), and average_marks as an int.
+Make id the primary key.
+
+
+Input format
+The first line of the input consists of the number of students.
+The next input consists of the student id, name, and average_marks.
+
+Output format
+Display the table contents as shown in the sample output.
+
+
+Sample testcases
+Input 1 		      		Output 1
+2					            1 Alice 85
+01					          2 Ron 90
+Alice
+85
+02
+Ron
+90
