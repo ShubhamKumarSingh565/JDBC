@@ -1,0 +1,27 @@
+Question No: 4
+
+Write a Java program that connects to a database using JDBC, 
+and retrieves metadata about the columns in a given table
+
+Table:customer_details
+
+Use the below Database Credentials
+Driver Class        :           com.mysql.jdbc.Driver
+Default DB URL :            jdbc:mysql://localhost/ri_db
+Username          :            test
+Password           :            test123
+
+
+Input format
+No console input
+
+Output format
+The Output Should display the ColumnName and datatype of the Column of customer_details Table
+
+
+Sample testcases
+Input 1						    Output 1
+						          ColumnName  TypeOfColumn
+						          cust_ID (INT) 10
+						          cust_Name (VARCHAR) 100
+						          city (VARCHAR) 100
