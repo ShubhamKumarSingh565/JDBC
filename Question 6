@@ -1,0 +1,42 @@
+Question No: 6
+
+Write a Java (JDBC) program to connect with the MySQL database and print all the employee details 
+who have salaries greater than or equal to the given input.
+
+Use the below Database Credentials:
+
+Driver Class: com.mysql.jdbc.Driver
+Default DB URL: jdbc:mysql://localhost/ri_db
+Username: test
+Password: test123
+
+Note: The table is already created, and a set of employee details are inserted.
+Table Name: EMPLOYEE
+
+id	  name	    Salary
+1	    Alice	    40000
+2	    Bob	      35000
+3	    Charles   10000
+4   	Darvin	  28000
+5	    Embella	  25000
+6	    Fatima	  4500
+7	    Guna	    500
+8	    Harry	    7500
+
+Input format
+The input consists of a double value that represents the salary.
+
+Output format
+The output prints the respective employee details.
+
+
+Sample testcases
+Input 1					  Output 1
+5000				    	1 Alice 40000.0
+					        2 Bob 35000.0
+					        3 Charles 10000.0
+					        4 Darvin 28000.0
+					        5 Embella 25000.0
+					        8 Harry 7500.0
+
+
